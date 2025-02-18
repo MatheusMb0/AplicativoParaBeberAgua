@@ -3,8 +3,6 @@ import { IUser } from '../types/UserInterface';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { usePersistState } from '../hooks/usePersistState';
 import auth from "@react-native-firebase/auth";
-import { Alert } from 'react-native';
-
 
 interface IUserContext {
     user?: IUser | null;

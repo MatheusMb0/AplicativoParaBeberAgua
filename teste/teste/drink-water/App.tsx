@@ -13,7 +13,7 @@ export default function App() {
         <UserProvider>
           <StatusBar style="auto" />
           <Routes/>
-        </UserProvider>
+        </UserProvider>    
       </FirebaseProvider>
     </NativeBaseProvider>
   );

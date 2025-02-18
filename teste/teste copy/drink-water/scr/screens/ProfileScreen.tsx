@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Divider, Input, Slider, Text, TextField } from 'native-base';
+import { Avatar, Box, Button, Divider, Input, Slider, Text } from 'native-base';
 import React, { useContext, useEffect, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { UserContext } from '../contexts/UserContext';
@@ -91,7 +91,7 @@ export const ProfileScreen: React.FC<ProfileScreenProps> = () => {
     onChangeText={(value) => {
         setUser({
             name: value,
-            photo: String(user?.photoURL),
+            photo: String(user?.photo),
         });
     }}
     placeholder="Default Input"

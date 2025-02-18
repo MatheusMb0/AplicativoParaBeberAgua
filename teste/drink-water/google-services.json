@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606742208560",
+    "project_id": "drinkwater-64cf6",
+    "storage_bucket": "drinkwater-64cf6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606742208560:android:4b57648a30a79d8cc9cdf5",
+        "android_client_info": {
+          "package_name": "com.code.drinkwater"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEYIUfMbbeakY7ffK2tJNlSaahB0BJLzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

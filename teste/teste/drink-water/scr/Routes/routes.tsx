@@ -43,7 +43,7 @@ export const Routes: React.FunctionComponent<IMyTabs> = props =>{
                 tabBarIcon: () => <Icon name="user" size={20} color="purple"/>
             }}/>
         </Tab.Navigator> 
-        </NavigationContainer>
+        </NavigationContainer>  
     );
 
 
